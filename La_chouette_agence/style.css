@@ -93,6 +93,19 @@ a:hover {
 
 .backgroundcolorwhite {
     background-color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.backgroundcolorblack {
+    background-color: black;
+    opacity: 0.9;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.backgroundcolorblack h2 {
+    text-align: center;
+    color: #F3976C!important;
 }
 
 .b-parallax {
