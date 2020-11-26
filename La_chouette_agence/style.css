@@ -11,6 +11,10 @@ body {
     display: none;
 }
 
+.black {
+    color: #000!important;
+}
+
 
 
 blockquote footer {
