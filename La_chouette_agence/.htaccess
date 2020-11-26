@@ -8,3 +8,19 @@
  mod_gzip_item_exclude mime ^image/.*
  mod_gzip_item_include handler ^cgi-script$
  </ifModule>
+
+ <IfModule mod_headers.c>
+
+<FilesMatch „\.(gif|jpg|jpeg|png)$“>
+
+Header set Cache-Control „max-age=604800, public“
+
+</FilesMatch>
+
+<FilesMatch „\.(css|js)$“>
+
+Header set Cache-Control „max-age=2592000, public“
+
+</FilesMatch>
+
+</IfModule>
