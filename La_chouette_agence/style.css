@@ -768,6 +768,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    margin: auto;
 }
 
 .portfolio-row {
@@ -781,7 +782,7 @@ h4 {
 
 .black-background {
     background-color: rgba(165, 147, 99, 0.7);
-    padding: 40px 40px 40px 40px;
+    
 }
 
 .bold-link {
@@ -799,6 +800,9 @@ h4 {
 
 .bgc-atomic-tangerine {
     background-color: #F3976C;
+}
+.tc-white-white {
+    color: #000000!important;
 }
 
 .tc-white {
@@ -921,6 +925,15 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
+    .social {
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+
+
     h1,
     h2,
     h3,
@@ -1007,7 +1020,7 @@ h4 {
     .bloc-xxl,
     .bloc-xl,
     .bloc-lg {
-        padding: 40px 0;
+        padding: 0px 0;
     }
     .bloc-sm,
     .bloc-md {
